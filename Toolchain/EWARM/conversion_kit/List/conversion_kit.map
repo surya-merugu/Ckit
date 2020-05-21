@@ -1,0 +1,1499 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  20/May/2020  19:27:02
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Exe\conversion_kit.out
+#    Map file     =
+#        C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\List\conversion_kit.map
+#    Command line =
+#        -f C:\Users\SURYAM~1\AppData\Local\Temp\EW6EA5.tmp ("C:\Users\SURYA
+#        MERUGU\Downloads\conversion_kit -mar17-7pm (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\bsp_driver_sd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\diskio.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\fatfs.o" "C:\Users\SURYA
+#        MERUGU\Downloads\conversion_kit -mar17-7pm (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\ff.o" "C:\Users\SURYA
+#        MERUGU\Downloads\conversion_kit -mar17-7pm (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\ff_gen_drv.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\main.o" "C:\Users\SURYA
+#        MERUGU\Downloads\conversion_kit -mar17-7pm (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_battery_info.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_dash_lcd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_dock_latch.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_ext_rtc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_gear_status.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_gps.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_int_rtc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_key_position.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_MC60.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_MC60_GNSS.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_MC60_GPRS.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_MC60_TCPIP.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_motor_temp.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_nrf52.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_obd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_rev_light.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_speed_info.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_timers.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_app_UART_Ring.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_can_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_can_int_callback.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_dock_latch_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_driver_dash_lcd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_gear_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_gpio_int_callback.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_hal_msp.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_i2c_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_key_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_lcd_gpio_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_rev_light_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_speed_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_spi_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_std_def.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_sys_clk_config.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_thc_off_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_timer_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_timer_int_callback.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\re_uart_init.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\sd_diskio.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\startup_stm32f407xx.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_adc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_adc_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_can.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_cec.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_cortex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_crc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_cryp.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_cryp_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dac.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dac_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dcmi.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dcmi_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dfsdm.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dma.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dma2d.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dma_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_dsi.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_eth.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_exti.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_flash.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_flash_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_flash_ramfunc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_fmpi2c.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_fmpi2c_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_gpio.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_hash.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_hash_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_hcd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_i2c.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_i2c_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_i2s.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_i2s_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_irda.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_iwdg.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_lptim.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_ltdc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_ltdc_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_mmc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_nand.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_nor.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_pccard.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_pcd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_pcd_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_pwr.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_pwr_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_qspi.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_rcc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_rcc_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_rng.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_rtc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_rtc_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_sai.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_sai_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_sd.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_sdram.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_smartcard.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_smbus.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_spdifrx.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_spi.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_sram.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_tim.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_tim_ex.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_uart.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_usart.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_hal_wwdg.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_it.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_adc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_crc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_dac.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_dma.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_dma2d.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_exti.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_fmc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_fsmc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_gpio.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_i2c.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_lptim.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_pwr.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_rcc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_rng.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_rtc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_sdmmc.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_spi.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_tim.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_usart.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_usb.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\stm32f4xx_ll_utils.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\syscall.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\system_stm32f4xx.o"
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj\unicode.o" --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --no_out_extension -o
+#        "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\Exe\conversion_kit.out"
+#        --map "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit
+#        -mar17-7pm\Toolchain\EWARM\conversion_kit\List\conversion_kit.map"
+#        --config "C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm
+#        (1)\conversion_kit -mar17-7pm\Toolchain\EWARM/stm32f407xx_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 5632, alignment = 8 { };
+define block HEAP with size = 4608, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x188
+  .intvec            ro code   0x800'0000   0x188  startup_stm32f407xx.o [1]
+                             - 0x800'0188   0x188
+
+"P1":                                      0x9708
+  .text              ro code   0x800'0188  0x1404  ff.o [1]
+  .text              ro code   0x800'158c    0x80  diskio.o [1]
+  .text              ro code   0x800'160c    0x1c  fatfs.o [1]
+  .text              ro code   0x800'1628    0x40  ff_gen_drv.o [1]
+  .text              ro code   0x800'1668  0x10c6  xprintffull.o [2]
+  .text              ro code   0x800'272e    0x3a  zero_init3.o [4]
+  .text              ro code   0x800'2768    0xa8  xlocale_c.o [2]
+  .text              ro code   0x800'2810    0x16  strchr.o [4]
+  .text              ro code   0x800'2826    0x1e  xencoding_8859_1.o [2]
+  .text              ro code   0x800'2844    0x40  xfail_s.o [2]
+  .text              ro code   0x800'2884    0x14  strlen_small.o [4]
+  .text              ro code   0x800'2898    0x58  memchr.o [4]
+  .text              ro code   0x800'28f0    0x18  ABImemcpy_small.o [4]
+  .text              ro code   0x800'2908    0x70  frexp.o [3]
+  .text              ro code   0x800'2978    0x2e  DblCmpLe.o [3]
+  .text              ro code   0x800'29a6     0xa  xsprout.o [2]
+  .text              ro code   0x800'29b0    0x2e  DblCmpGe.o [3]
+  .rodata            const     0x800'29de     0x2  xlocale_c.o [2]
+  .text              ro code   0x800'29e0   0x13a  ldexp.o [3]
+  .rodata            const     0x800'2b1a     0x2  xlocale_c.o [2]
+  .text              ro code   0x800'2b1c    0x3a  DblToS32.o [3]
+  .rodata            const     0x800'2b56     0x1  xlocale_c.o [2]
+  .text              ro code   0x800'2b58    0x22  S32ToDbl.o [3]
+  .text              ro code   0x800'2b7c    0xe2  DblSub.o [3]
+  .text              ro code   0x800'2c60   0x246  DblDiv.o [3]
+  .text              ro code   0x800'2ea8    0x28  DblToU32.o [3]
+  .text              ro code   0x800'2ed0    0x1a  U32ToDbl.o [3]
+  .text              ro code   0x800'2eec   0x1a2  DblMul.o [3]
+  .text              ro code   0x800'308e     0xa  xmbcurmax.o [2]
+  .text              ro code   0x800'3098   0x106  I64DivMod_small.o [4]
+  .text              ro code   0x800'319e     0x6  abort.o [2]
+  .text              ro code   0x800'31a4   0x17a  DblAdd.o [3]
+  .text              ro code   0x800'3320     0x2  I64DivZer.o [4]
+  .text              ro code   0x800'3324    0x14  exit.o [5]
+  .text              ro code   0x800'3338    0x7c  iarttio.o [5]
+  .text              ro code   0x800'33b4    0x3c  XShttio.o [2]
+  .text              ro code   0x800'33f0   0xc16  stm32f4xx_hal_sd.o [1]
+  .text              ro code   0x800'4008   0x18c  re_hal_msp.o [1]
+  .text              ro code   0x800'4194   0x552  stm32f4xx_ll_sdmmc.o [1]
+  .text              ro code   0x800'46e8   0x388  stm32f4xx_hal_dma.o [1]
+  .text              ro code   0x800'4a70    0x84  bsp_driver_sd.o [1]
+  .text              ro code   0x800'4af4     0x2  stm32f4xx_hal_sd.o [1]
+  .text              ro code   0x800'4af8     0xc  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'4b04    0x14  memset.o [4]
+  .text              ro code   0x800'4b18    0xee  stm32f4xx_hal_cortex.o [1]
+  .text              ro code   0x800'4c08   0x210  stm32f4xx_hal_gpio.o [1]
+  .text              ro code   0x800'4e18   0x6d4  main.o [1]
+  .text              ro code   0x800'54ec    0x28  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'5514     0x2  bsp_driver_sd.o [1]
+  .text              ro code   0x800'5518   0x254  sd_diskio.o [1]
+  .text              ro code   0x800'576c    0x66  ABImemset.o [4]
+  .text              ro code   0x800'57d4    0x60  re_gpio_int_callback.o [1]
+  .text              ro code   0x800'5834     0x6  ABImemclr4.o [4]
+  .text              ro code   0x800'583c    0x20  re_std_def.o [1]
+  .text              ro code   0x800'585c    0x40  sprintf.o [2]
+  .text              ro code   0x800'589c   0x14c  iar_Stoulx.o [2]
+  .text              ro code   0x800'59e8   0x28c  stm32f4xx_hal_spi.o [1]
+  .text              ro code   0x800'5c74    0x34  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'5ca8    0xe4  re_sys_clk_config.o [1]
+  .text              ro code   0x800'5d8c    0x90  re_lcd_gpio_init.o [1]
+  .text              ro code   0x800'5e1c    0x58  re_key_init.o [1]
+  .text              ro code   0x800'5e74    0x94  re_dock_latch_init.o [1]
+  .text              ro code   0x800'5f08    0xa0  re_gear_init.o [1]
+  .text              ro code   0x800'5fa8    0x58  re_speed_init.o [1]
+  .text              ro code   0x800'6000    0x98  re_timer_init.o [1]
+  .text              ro code   0x800'6098   0x394  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'642c    0xb8  re_uart_init.o [1]
+  .text              ro code   0x800'64e4   0x14c  re_can_init.o [1]
+  .text              ro code   0x800'6630   0x1ac  stm32f4xx_hal_rcc.o [1]
+  .text              ro code   0x800'67dc    0xe6  re_app_battery_info.o [1]
+  .text              ro code   0x800'68c4   0x3cc  stm32f4xx_hal_uart.o [1]
+  .text              ro code   0x800'6c90   0xa84  re_app_dash_lcd.o [1]
+  .text              ro code   0x800'7714    0x3a  ABImemset48.o [4]
+  .text              ro code   0x800'7750    0x28  printf.o [2]
+  .text              ro code   0x800'7778    0x14  isspace.o [2]
+  .text              ro code   0x800'778c    0x14  tolower.o [2]
+  .text              ro code   0x800'77a0    0x40  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'77e0   0x310  stm32f4xx_hal_rcc.o [1]
+  .text              ro code   0x800'7af0   0x130  stm32f4xx_hal_rcc_ex.o [1]
+  .text              ro code   0x800'7c20    0x8c  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'7cac     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'7cae     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'7cb0    0x14  re_timer_int_callback.o [1]
+  .text              ro code   0x800'7cc4     0x2  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'7cc6     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'7cc8     0x2  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'7cca     0x2  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'7ccc   0x61c  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'82e8     0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code   0x800'82ea     0x2  stm32f4xx_hal_uart.o [1]
+  .text              ro code   0x800'82ec    0x14  re_app_nrf52.o [1]
+  .text              ro code   0x800'8300   0x166  re_driver_dash_lcd.o [1]
+  .text              ro code   0x800'8468    0x80  re_app_timers.o [1]
+  .text              ro code   0x800'84e8     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84ea     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84ec     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84ee     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84f0     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84f2     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84f4     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'84f8   0x14a  re_can_int_callback.o [1]
+  .text              ro code   0x800'8642     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'8644     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'8646     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'8648     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'864a     0x2  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'864c    0x5c  re_app_dock_latch.o [1]
+  .text              ro code   0x800'86a8    0xba  re_app_gear_status.o [1]
+  .text              ro code   0x800'8764    0xcc  re_app_speed_info.o [1]
+  .text              ro code   0x800'8830    0x48  FltToDbl.o [3]
+  .text              ro code   0x800'8878   0x138  heap0.o [2]
+  .text              ro code   0x800'89b0    0x2c  xgetmemchunk.o [2]
+  .text              ro code   0x800'89dc    0xd8  xfspos.o [2]
+  .text              ro code   0x800'8ab4    0xac  fflush.o [2]
+  .text              ro code   0x800'8b60     0xc  xfgpos.o [2]
+  .text              ro code   0x800'8b6c    0x4a  lseek.o [5]
+  .text              ro code   0x800'8bb6    0x10  write.o [5]
+  .text              ro code   0x800'8bc8    0xcc  XShHandles.o [2]
+  .text              ro code   0x800'8c94    0x1e  dwrite.o [5]
+  .text              ro code   0x800'8cb2    0x20  iarwstd.o [5]
+  .text              ro code   0x800'8cd2    0x22  iarwrite.o [5]
+  .rodata            const     0x800'8cf4    0xc0  re_app_battery_info.o [1]
+  .text              ro code   0x800'8db4    0xb4  xfwprep.o [2]
+  .text              ro code   0x800'8e68    0x24  fseek.o [2]
+  .text              ro code   0x800'8e8c    0x9c  xfofind.o [2]
+  .text              ro code   0x800'8f28     0x4  heaptramp0.o [2]
+  .text              ro code   0x800'8f2c    0x8c  stm32f4xx_it.o [1]
+  .text              ro code   0x800'8fb8    0x10  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'8fc8    0x88  re_app_UART_Ring.o [1]
+  .rodata            const     0x800'9050    0x88  re_app_battery_info.o [1]
+  .rodata            const     0x800'90d8    0x80  ff.o [1]
+  .text              ro code   0x800'9158    0x7e  fclose.o [2]
+  .text              ro code   0x800'91d6    0x18  close.o [5]
+  .text              ro code   0x800'91ee    0x14  remove.o [5]
+  .rodata            const     0x800'9204    0x7c  re_sys_clk_config.o [1]
+  .rodata            const     0x800'9280    0x78  re_can_int_callback.o [1]
+  .text              ro code   0x800'92f8    0x78  lz77_init_single.o [4]
+  .rodata            const     0x800'9370    0x74  re_timer_init.o [1]
+  .rodata            const     0x800'93e4    0x70  main.o [1]
+  .rodata            const     0x800'9454    0x70  re_can_init.o [1]
+  .text              ro code   0x800'94c4    0x54  fputc.o [2]
+  .rodata            const     0x800'9518    0x50  iar_Stoulx.o [2]
+  .text              ro code   0x800'9568    0x3c  xcloseall.o [2]
+  .text              ro code   0x800'95a4    0x2c  system_stm32f4xx.o [1]
+  .text              ro code   0x800'95d0    0x28  data_init.o [4]
+  .rodata            const     0x800'95f8    0x24  main.o [1]
+  .text              ro code   0x800'961c    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'9640    0x20  - Linker created -
+  .text              ro code   0x800'9660    0x1e  cmain.o [4]
+  .text              ro code   0x800'967e     0x4  low_level_init.o [2]
+  .text              ro code   0x800'9682     0x4  exit.o [2]
+  .text              ro code   0x800'9688     0xe  cexit.o [4]
+  .text              ro code   0x800'9696    0x16  xprout.o [2]
+  .text              ro code   0x800'96ac     0xc  putchar.o [2]
+  .rodata            const     0x800'96b8    0x14  sd_diskio.o [1]
+  .text              ro code   0x800'96cc    0x10  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'96dc     0xc  cstartup_M.o [4]
+  .rodata            const     0x800'96e8     0x8  system_stm32f4xx.o [1]
+  .text              ro code   0x800'96f0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'96f4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'96f8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'96fc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9700     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9704     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9708     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'970c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9710     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9714     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9718     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'971c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9720     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9724     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9728     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'972c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9730     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9734     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9738     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'973c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9740     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9744     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9748     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'974c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9750     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9754     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9758     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'975c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9760     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9764     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9768     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'976c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9770     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9774     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9778     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'977c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9780     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9784     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9788     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'978c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9790     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9794     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'9798     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'979c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97a0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97a4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97a8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97ac     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97b0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97b4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97b8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97bc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97c0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97c4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97c8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97cc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97d0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97d4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97d8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97dc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97e0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97e4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97e8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97ec     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97f0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97f4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'97f8     0x0  cstart_closeall.o [4]
+  .rodata            const     0x800'97f8     0x0  zero_init3.o [4]
+  .rodata            const     0x800'97f8     0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x800'97f8    0x98  <for P2-1>
+                             - 0x800'9890  0x9708
+
+"P2", part 1 of 3:                          0x192
+  P2-1                        0x2000'0000   0x192  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32f4xx_hal.o [1]
+    .data            inited   0x2000'000c     0x4  system_stm32f4xx.o [1]
+    .data            inited   0x2000'0010    0x38  xlocale_c.o [2]
+    .data            inited   0x2000'0048    0x48  xlocale_c.o [2]
+    .data            inited   0x2000'0090    0x48  xfiles.o [2]
+    .data            inited   0x2000'00d8    0x48  xfiles.o [2]
+    .data            inited   0x2000'0120    0x48  xfiles.o [2]
+    .data            inited   0x2000'0168    0x20  xfiles.o [2]
+    .data            inited   0x2000'0188     0x8  XShttio.o [2]
+    .data            inited   0x2000'0190     0x1  main.o [1]
+    .data            inited   0x2000'0191     0x1  sd_diskio.o [1]
+                            - 0x2000'0192   0x192
+
+"P2", part 2 of 3:                          0xf94
+  .bss               zero     0x2000'0194   0x230  fatfs.o [1]
+  .bss               zero     0x2000'03c4   0x230  fatfs.o [1]
+  .bss               zero     0x2000'05f4   0x208  sd_diskio.o [1]
+  .bss               zero     0x2000'07fc    0xd8  re_app_UART_Ring.o [1]
+  .bss               zero     0x2000'08d4    0xd0  re_app_UART_Ring.o [1]
+  .bss               zero     0x2000'09a4    0xc8  main.o [1]
+  .bss               zero     0x2000'0a6c    0xc0  main.o [1]
+  .bss               zero     0x2000'0b2c    0x98  main.o [1]
+  .bss               zero     0x2000'0bc4    0x80  main.o [1]
+  .bss               zero     0x2000'0c44    0x80  XShHandles.o [2]
+  .bss               zero     0x2000'0cc4    0x60  main.o [1]
+  .bss               zero     0x2000'0d24    0x60  main.o [1]
+  .bss               zero     0x2000'0d84    0x58  re_spi_init.o [1]
+  .bss               zero     0x2000'0ddc    0x50  re_lcd_gpio_init.o [1]
+  .bss               zero     0x2000'0e2c    0x50  xfiles.o [2]
+  .bss               zero     0x2000'0e7c    0x50  xfiles.o [2]
+  .bss               zero     0x2000'0ed0    0x40  re_app_dash_lcd.o [1]
+  .bss               zero     0x2000'0f10    0x40  re_timer_init.o [1]
+  .bss               zero     0x2000'0f50    0x40  re_uart_init.o [1]
+  .bss               zero     0x2000'0f90    0x40  re_uart_init.o [1]
+  .bss               zero     0x2000'0fd0    0x38  re_app_dash_lcd.o [1]
+  .bss               zero     0x2000'1008    0x28  re_can_init.o [1]
+  .bss               zero     0x2000'1030    0x25  re_app_dash_lcd.o [1]
+  .bss               zero     0x2000'1055     0x3  re_app_timers.o [1]
+  .bss               zero     0x2000'1058    0x20  ff.o [1]
+  .bss               zero     0x2000'1078    0x1c  re_can_init.o [1]
+  .bss               zero     0x2000'1094    0x18  main.o [1]
+  .bss               zero     0x2000'10ac     0xc  ff_gen_drv.o [1]
+  .bss               zero     0x2000'10b8    0x18  re_app_speed_info.o [1]
+  .bss               zero     0x2000'10d0    0x18  re_can_init.o [1]
+  .bss               zero     0x2000'10e8     0xc  re_can_int_callback.o [1]
+  .bss               zero     0x2000'10f4     0x8  fatfs.o [1]
+  .bss               zero     0x2000'10fc     0x8  ff.o [1]
+  .bss               zero     0x2000'1104     0x8  heap0.o [2]
+  .bss               zero     0x2000'110c     0x4  re_app_battery_info.o [1]
+  .bss               zero     0x2000'1110     0x4  re_app_gear_status.o [1]
+  .bss               zero     0x2000'1114     0x4  re_app_gear_status.o [1]
+  .bss               zero     0x2000'1118     0x4  xfail_s.o [2]
+  .bss               zero     0x2000'111c     0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2000'1120     0x1  re_app_dock_latch.o [1]
+  .bss               zero     0x2000'1121     0x1  re_app_dock_latch.o [1]
+  .bss               zero     0x2000'1122     0x1  re_app_key_position.o [1]
+  .bss               zero     0x2000'1123     0x1  re_app_key_position.o [1]
+  .bss               zero     0x2000'1124     0x1  XShttio.o [2]
+                            - 0x2000'1125   0xf91
+
+"P2", part 3 of 3:                         0x2800
+  CSTACK                      0x2000'1128  0x1600  <Block>
+    CSTACK           uninit   0x2000'1128  0x1600  <Block tail>
+  HEAP                        0x2000'2728  0x1200  <Block>
+    HEAP             uninit   0x2000'2728  0x1200  <Block tail>
+                            - 0x2000'3928  0x2800
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'9890   0x80f'ffff  0xf'6770
+  0x2000'0192  0x2000'0193       0x2
+  0x2000'3928  0x2001'ffff  0x1'c6d8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xf91:
+          0x2000'0194  0xf91
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x98 (37% of destination):
+           0x800'97f8   0x98
+    1 destination range, total size 0x192:
+          0x2000'0000  0x192
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                   ro code  ro data  rw data
+    ------                   -------  -------  -------
+command line/config:
+    --------------------------------------------------
+    Total:
+
+C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm (1)\conversion_kit -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj: [1]
+    bsp_driver_sd.o              134
+    diskio.o                     128
+    fatfs.o                       28             1'128
+    ff.o                       5'124      128       40
+    ff_gen_drv.o                  64                12
+    main.o                     1'748      148      889
+    re_app_UART_Ring.o           136               424
+    re_app_battery_info.o        230      328        4
+    re_app_dash_lcd.o          2'692               157
+    re_app_dock_latch.o           92                 2
+    re_app_gear_status.o         186                 8
+    re_app_key_position.o                            2
+    re_app_nrf52.o                20
+    re_app_speed_info.o          204                24
+    re_app_timers.o              128                 3
+    re_can_init.o                332      112       92
+    re_can_int_callback.o        330      120       12
+    re_dock_latch_init.o         148
+    re_driver_dash_lcd.o         358
+    re_gear_init.o               160
+    re_gpio_int_callback.o        96
+    re_hal_msp.o                 396
+    re_key_init.o                 88
+    re_lcd_gpio_init.o           144                80
+    re_speed_init.o               88
+    re_spi_init.o                                   88
+    re_std_def.o                  32
+    re_sys_clk_config.o          228      124
+    re_timer_init.o              152      116       64
+    re_timer_int_callback.o       20
+    re_uart_init.o               184               128
+    sd_diskio.o                  596       21      521
+    startup_stm32f407xx.o        672
+    stm32f4xx_hal.o              184        4       12
+    stm32f4xx_hal_can.o        1'588
+    stm32f4xx_hal_cortex.o       238
+    stm32f4xx_hal_dma.o          904
+    stm32f4xx_hal_gpio.o         528
+    stm32f4xx_hal_rcc.o        1'212
+    stm32f4xx_hal_rcc_ex.o       304
+    stm32f4xx_hal_sd.o         3'096
+    stm32f4xx_hal_spi.o          652
+    stm32f4xx_hal_tim.o          924
+    stm32f4xx_hal_tim_ex.o       144
+    stm32f4xx_hal_uart.o         976
+    stm32f4xx_it.o               140
+    stm32f4xx_ll_sdmmc.o       1'362
+    system_stm32f4xx.o            44       10        4
+    --------------------------------------------------
+    Total:                    27'234    1'111    3'694
+
+dl7M_tlf.a: [2]
+    XShHandles.o                 204               128
+    XShttio.o                     60        3        9
+    abort.o                        6
+    exit.o                         4
+    fclose.o                     126
+    fflush.o                     172
+    fputc.o                       84
+    fseek.o                       36
+    heap0.o                      312                 8
+    heaptramp0.o                   4
+    iar_Stoulx.o                 332       80
+    isspace.o                     20
+    low_level_init.o               4
+    printf.o                      40
+    putchar.o                     12
+    sprintf.o                     64
+    tolower.o                     20
+    xcloseall.o                   60
+    xencoding_8859_1.o            30
+    xfail_s.o                     64                 4
+    xfgpos.o                      12
+    xfiles.o                               94      408
+    xfofind.o                    156
+    xfspos.o                     216
+    xfwprep.o                    180
+    xgetmemchunk.o                44                 4
+    xlocale_c.o                  168       53      128
+    xmbcurmax.o                   10
+    xprintffull.o              4'294
+    xprout.o                      22
+    xsprout.o                     10
+    --------------------------------------------------
+    Total:                     6'766      230      689
+
+m7M_tls.a: [3]
+    DblAdd.o                     378
+    DblCmpGe.o                    46
+    DblCmpLe.o                    46
+    DblDiv.o                     582
+    DblMul.o                     418
+    DblSub.o                     226
+    DblToS32.o                    58
+    DblToU32.o                    40
+    FltToDbl.o                    72
+    S32ToDbl.o                    34
+    U32ToDbl.o                    26
+    fpinit_M.o                    34
+    frexp.o                      112
+    ldexp.o                      314
+    --------------------------------------------------
+    Total:                     2'386
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                   6
+    ABImemcpy_small.o             24
+    ABImemset.o                  102
+    ABImemset48.o                 58
+    I64DivMod_small.o            262
+    I64DivZer.o                    2
+    cexit.o                       14
+    cmain.o                       30
+    cstart_closeall.o
+    cstartup_M.o                  12
+    data_init.o                   40
+    lz77_init_single.o           120
+    memchr.o                      88
+    memset.o                      20
+    strchr.o                      22
+    strlen_small.o                20
+    zero_init3.o                  58
+    --------------------------------------------------
+    Total:                       878
+
+shb_l.a: [5]
+    close.o                       24
+    dwrite.o                      30
+    exit.o                        20
+    iarttio.o                    124
+    iarwrite.o                    34
+    iarwstd.o                     32
+    lseek.o                       74
+    remove.o                      20
+    write.o                       16
+    --------------------------------------------------
+    Total:                       374
+
+    Gaps                          41        4        4
+    Linker created                         32   10'240
+------------------------------------------------------
+    Grand Total:              37'679    1'377   14'627
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'9640          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'9660          --   Gb  - Linker created -
+?main                    0x800'9661         Code  Gb  cmain.o [4]
+AHBPrescTable            0x800'95c0   0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable            0x800'96e8    0x8  Data  Gb  system_stm32f4xx.o [1]
+Aldata                  0x2000'1104    0x8  Data  Lc  heap0.o [2]
+AppendLog                0x800'4ec5   0x88  Code  Gb  main.o [1]
+BSP_SD_GetCardInfo       0x800'4adb    0x8  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_GetCardState      0x800'4ac7   0x14  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_Init              0x800'4a71   0x2e  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_ReadBlocks_DMA    0x800'4a9f   0x10  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_ReadCpltCallback
+                         0x800'575b    0x8  Code  Gb  sd_diskio.o [1]
+BSP_SD_WriteBlocks_DMA   0x800'4aaf    0xe  Code  Gb  bsp_driver_sd.o [1]
+BSP_SD_WriteCpltCallback
+                         0x800'5753    0x8  Code  Gb  sd_diskio.o [1]
+BusFault_Handler         0x800'8f33    0x2  Code  Gb  stm32f4xx_it.o [1]
+Byte_Swap                0x800'67dd    0xc  Code  Gb  re_app_battery_info.o [1]
+CAN1_RX0_IRQHandler      0x800'8f4d    0x2  Code  Gb  stm32f4xx_it.o [1]
+CAN1_RX1_IRQHandler      0x800'8f55    0x2  Code  Gb  stm32f4xx_it.o [1]
+CAN1_SCE_IRQHandler      0x800'8f57    0x2  Code  Gb  stm32f4xx_it.o [1]
+CAN1_TX_IRQHandler       0x800'8f4b    0x2  Code  Gb  stm32f4xx_it.o [1]
+CS                      0x2000'0ef0   0x20  Data  Gb  re_app_dash_lcd.o [1]
+CSTACK$$Base            0x2000'1128          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2728          --   Gb  - Linker created -
+CacheMore                0x800'2799   0x28  Code  Lc  xlocale_c.o [2]
+DMA2_Stream3_IRQHandler
+                         0x800'8f8f    0x6  Code  Gb  stm32f4xx_it.o [1]
+DMA2_Stream6_IRQHandler
+                         0x800'8f95    0x6  Code  Gb  stm32f4xx_it.o [1]
+DMA_CalcBaseAndBitshift
+                         0x800'4a41   0x26  Code  Lc  stm32f4xx_hal_dma.o [1]
+DMA_CalcBaseAndBitshift::flagBitshiftOffset
+                         0x800'4a68    0x8  Data  Lc  stm32f4xx_hal_dma.o [1]
+DMA_SetConfig            0x800'4a21   0x20  Code  Lc  stm32f4xx_hal_dma.o [1]
+DebugMon_Handler         0x800'8f39    0x2  Code  Gb  stm32f4xx_it.o [1]
+EXTI0_IRQHandler         0x800'8f65    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI1_IRQHandler         0x800'8f6b    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI2_IRQHandler         0x800'8f71    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI4_IRQHandler         0x800'8f77    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI9_5_IRQHandler       0x800'8f7d    0x6  Code  Gb  stm32f4xx_it.o [1]
+Error_Handler            0x800'5411    0x2  Code  Gb  main.o [1]
+ExCvt                    0x800'90d8   0x80  Data  Lc  ff.o [1]
+FATFS_LinkDriver         0x800'1661    0x4  Code  Gb  ff_gen_drv.o [1]
+FATFS_LinkDriverEx       0x800'1629   0x38  Code  Gb  ff_gen_drv.o [1]
+FatFs                   0x2000'1100    0x4  Data  Lc  ff.o [1]
+Files                   0x2000'1058   0x20  Data  Lc  ff.o [1]
+Fsid                    0x2000'10fc    0x2  Data  Lc  ff.o [1]
+GearDirection_statusA   0x2000'1112    0x1  Data  Gb  re_app_gear_status.o [1]
+GearDirection_statusB   0x2000'1113    0x1  Data  Gb  re_app_gear_status.o [1]
+GearMode_statusA        0x2000'1110    0x1  Data  Gb  re_app_gear_status.o [1]
+GearMode_statusB        0x2000'1111    0x1  Data  Gb  re_app_gear_status.o [1]
+HAL_CAN_ActivateNotification
+                         0x800'80d3   0x16  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_AddTxMessage     0x800'7f05   0xc4  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_ConfigFilter     0x800'7dc3   0xc0  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_GetRxMessage     0x800'7fdb   0xe4  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_IRQHandler       0x800'80ef  0x1f8  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_Init             0x800'7ccd   0xe4  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_RxFifo0MsgPendingCallback
+                         0x800'84f9  0x11a  Code  Gb  re_can_int_callback.o [1]
+HAL_CAN_Start            0x800'7e95   0x4c  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_DMA_Abort_IT         0x800'4839   0x24  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_GetError         0x800'4a1d    0x4  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_IRQHandler       0x800'485d  0x188  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Init             0x800'46e9   0xee  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_DMA_Start_IT         0x800'47d7   0x62  Code  Gb  stm32f4xx_hal_dma.o [1]
+HAL_Delay                0x800'54ed   0x28  Code  Wk  stm32f4xx_hal.o [1]
+HAL_GPIO_EXTI_Callback   0x800'57d5   0x60  Code  Gb  re_gpio_int_callback.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'4dd9   0x10  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'4c09  0x1ae  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x800'4db7    0xc  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin       0x800'4dcb    0xe  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'4dc3    0x8  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick              0x800'4af9    0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_IncTick              0x800'8fb9   0x10  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                 0x800'5c75   0x30  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick             0x800'77a1   0x40  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit              0x800'4009   0x38  Code  Gb  re_hal_msp.o [1]
+HAL_NVIC_DisableIRQ      0x800'4b9d   0x1e  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ       0x800'4b87   0x16  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'4b4d   0x3a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'4b33   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'7af1  0x108  Code  Gb  stm32f4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x800'6631  0x100  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'673d   0x10  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x800'674d    0xe  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'77e1  0x310  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SD_AbortCallback     0x800'4ae9    0x4  Code  Gb  bsp_driver_sd.o [1]
+HAL_SD_ConfigWideBusOperation
+                         0x800'3c71  0x102  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_GetCardCSD        0x800'3a85  0x1c8  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_GetCardInfo       0x800'3c4d   0x24  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_GetCardState      0x800'3d81   0x26  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_IRQHandler        0x800'385d  0x1f8  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_Init              0x800'33f1   0x36  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_InitCard          0x800'3427  0x1ac  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_MspInit           0x800'4041  0x10a  Code  Gb  re_hal_msp.o [1]
+HAL_SD_ReadBlocks_DMA    0x800'3607  0x100  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SD_RxCpltCallback    0x800'4af1    0x4  Code  Gb  bsp_driver_sd.o [1]
+HAL_SD_TxCpltCallback    0x800'4aed    0x4  Code  Gb  bsp_driver_sd.o [1]
+HAL_SD_WriteBlocks_DMA   0x800'372f  0x104  Code  Gb  stm32f4xx_hal_sd.o [1]
+HAL_SPI_Transmit         0x800'59e9  0x126  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_Config       0x800'4bbb   0x28  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler   0x800'4c01    0x4  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_TIMEx_BreakCallback
+                         0x800'7cc5    0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_CommutCallback
+                         0x800'7cc9    0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'7c21   0x6e  Code  Gb  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'6099   0x1a  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit     0x800'6001   0x38  Code  Gb  re_timer_init.o [1]
+HAL_TIM_Base_Start_IT    0x800'60b3   0x20  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                         0x800'623f   0x90  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_IRQHandler       0x800'60f7  0x142  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'7cb1   0x14  Code  Gb  re_timer_int_callback.o [1]
+HAL_UART_IRQHandler      0x800'699d  0x152  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_Init            0x800'68c5   0x1e  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'642d   0x64  Code  Gb  re_uart_init.o [1]
+HAL_UART_Receive_IT      0x800'693b   0x56  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                         0x800'82ed   0x14  Code  Gb  re_app_nrf52.o [1]
+HEAP$$Base              0x2000'2728          --   Gb  - Linker created -
+HEAP$$Limit             0x2000'3928          --   Gb  - Linker created -
+HardFault_Handler        0x800'8f2f    0x2  Code  Gb  stm32f4xx_it.o [1]
+KitStatus               0x2000'1094    0x1  Data  Gb  main.o [1]
+LcdDisplay              0x2000'1030   0x24  Data  Gb  re_app_dash_lcd.o [1]
+LogData                 0x2000'0a6c   0xc0  Data  Gb  main.o [1]
+MX_FATFS_Init            0x800'160d   0x10  Code  Gb  fatfs.o [1]
+MX_USART3_UART_Init      0x800'64a7   0x2e  Code  Gb  re_uart_init.o [1]
+MemManage_Handler        0x800'8f31    0x2  Code  Gb  stm32f4xx_it.o [1]
+Message_BatID           0x2000'10f0    0x4  Data  Gb  re_can_int_callback.o [1]
+NMI_Handler              0x800'8f2d    0x2  Code  Gb  stm32f4xx_it.o [1]
+OverWriteLog             0x800'4f4d   0x3a  Code  Gb  main.o [1]
+PendSV_Handler           0x800'8f3b    0x2  Code  Gb  stm32f4xx_it.o [1]
+RE_CAN1_Filter_Config    0x800'65bb   0x32  Code  Gb  re_can_init.o [1]
+RE_CAN1_Init             0x800'64e5   0xd6  Code  Gb  re_can_init.o [1]
+RE_CAN1_Start_Interrupt
+                         0x800'65ed   0x30  Code  Gb  re_can_init.o [1]
+RE_CloseDock_Latch       0x800'865f    0xc  Code  Gb  re_app_dock_latch.o [1]
+RE_DockLatch_GpioInit    0x800'5e75   0x94  Code  Gb  re_dock_latch_init.o [1]
+RE_DockLatch_Status      0x800'8675   0x20  Code  Gb  re_app_dock_latch.o [1]
+RE_Error_Handler         0x800'583d   0x16  Code  Gb  re_std_def.o [1]
+RE_Gear_Direction        0x800'86e5   0x26  Code  Gb  re_app_gear_status.o [1]
+RE_Gear_GpioInit         0x800'5f09   0xa0  Code  Gb  re_gear_init.o [1]
+RE_Gear_Mode             0x800'86a9   0x3c  Code  Gb  re_app_gear_status.o [1]
+RE_GetBatInfoErr         0x800'6817   0x7a  Code  Gb  re_app_battery_info.o [1]
+RE_LCD_GpioInit          0x800'5d8d   0x90  Code  Gb  re_lcd_gpio_init.o [1]
+RE_OpenDock_Latch        0x800'864d   0x12  Code  Gb  re_app_dock_latch.o [1]
+RE_Read_Gear_Status      0x800'870b   0x36  Code  Gb  re_app_gear_status.o [1]
+RE_RefreshScreen         0x800'7369  0x376  Code  Gb  re_app_dash_lcd.o [1]
+RE_Req_BatInfo           0x800'67e9   0x2e  Code  Gb  re_app_battery_info.o [1]
+RE_SPI_Trasmit_Msg       0x800'4fd5  0x14a  Code  Gb  main.o [1]
+RE_Speed_GpioInit        0x800'5fa9   0x58  Code  Gb  re_speed_init.o [1]
+RE_SystemClock_Config    0x800'5ca9   0xe4  Code  Gb  re_sys_clk_config.o [1]
+RE_TIMER3_Init           0x800'6039   0x50  Code  Gb  re_timer_init.o [1]
+RE_Timer_ISR             0x800'8469   0x80  Code  Gb  re_app_timers.o [1]
+RE_distance_covered      0x800'87c1   0x40  Code  Gb  re_app_speed_info.o [1]
+RE_efficiency_to_graphic
+                         0x800'6e41   0x92  Code  Lc  re_app_dash_lcd.o [1]
+RE_key_GpioInit          0x800'5e1d   0x58  Code  Gb  re_key_init.o [1]
+RE_lcd_reset             0x800'8443   0x24  Code  Gb  re_driver_dash_lcd.o [1]
+RE_lcd_start_animation   0x800'72d7   0x90  Code  Gb  re_app_dash_lcd.o [1]
+RE_lcd_write_bit         0x800'8301   0x30  Code  Lc  re_driver_dash_lcd.o [1]
+RE_lcd_write_cmdcode     0x800'83bd   0x62  Code  Lc  re_driver_dash_lcd.o [1]
+RE_lcd_write_data        0x800'833d   0x68  Code  Gb  re_driver_dash_lcd.o [1]
+RE_num_to_7seg           0x800'6c91   0x3e  Code  Lc  re_app_dash_lcd.o [1]
+RE_soc_to_graphic        0x800'6ed5   0x9e  Code  Lc  re_app_dash_lcd.o [1]
+RE_speed                 0x800'8765   0x5c  Code  Gb  re_app_speed_info.o [1]
+RE_speed_to_graphic      0x800'6d6d   0xca  Code  Lc  re_app_dash_lcd.o [1]
+RE_split_three_digit     0x800'6d19   0x4c  Code  Lc  re_app_dash_lcd.o [1]
+RE_split_two_digit       0x800'6ccf   0x4a  Code  Lc  re_app_dash_lcd.o [1]
+RE_update_lcd_static_seg
+                         0x800'6f73   0x86  Code  Gb  re_app_dash_lcd.o [1]
+RE_write_to_display      0x800'6ff9  0x2de  Code  Lc  re_app_dash_lcd.o [1]
+ReadLogFile              0x800'4f87   0x4e  Code  Gb  main.o [1]
+ReadStatus              0x2000'05f8    0x4  Data  Lc  sd_diskio.o [1]
+Region$$Table$$Base      0x800'9640          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'9660          --   Gb  - Linker created -
+RpmCnt                  0x2000'10cc    0x4  Data  Gb  re_app_speed_info.o [1]
+RxHeader                0x2000'1078   0x1c  Data  Gb  re_can_init.o [1]
+SDFatFS                 0x2000'0194  0x230  Data  Gb  fatfs.o [1]
+SDFile                  0x2000'03c4  0x230  Data  Gb  fatfs.o [1]
+SDIO_ConfigData          0x800'420b   0x26  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_GetPowerState       0x800'41db    0x8  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_GetResponse         0x800'4205    0x6  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_IRQHandler          0x800'8f89    0x6  Code  Gb  stm32f4xx_it.o [1]
+SDIO_Init                0x800'4195   0x2a  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_PowerState_ON       0x800'41cb   0x10  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_ReadFIFO            0x800'41bf    0x2  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_SendCommand         0x800'41e3   0x22  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDIO_WriteFIFO           0x800'41c1    0xa  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdAppCommand      0x800'43b5   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdAppOperCommand
+                         0x800'43cb   0x1e  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdBlockLength     0x800'4237   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdBusWidth        0x800'43f7    0x4  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdGoIdleState     0x800'4309   0x32  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdOperCond        0x800'433b   0x62  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdReadMultiBlock
+                         0x800'4263   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdReadSingleBlock
+                         0x800'424d   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdSelDesel        0x800'42e9   0x20  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdSendCID         0x800'441b   0x1e  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdSendCSD         0x800'4439   0x10  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdSendSCR         0x800'43fb   0x18  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdSendStatus      0x800'44db   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdSetRelAdd       0x800'4457   0x84  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdStopTransfer    0x800'42bf   0x18  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdWriteMultiBlock
+                         0x800'428f   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_CmdWriteSingleBlock
+                         0x800'4279   0x16  Code  Gb  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_GetCmdResp1        0x800'452d  0x11c  Code  Lc  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_GetCmdResp2        0x800'4649   0x40  Code  Lc  stm32f4xx_ll_sdmmc.o [1]
+SDMMC_GetCmdResp3        0x800'4689   0x32  Code  Lc  stm32f4xx_ll_sdmmc.o [1]
+SDPath                  0x2000'10f8    0x4  Data  Gb  fatfs.o [1]
+SD_CheckStatus           0x800'553d   0x1a  Code  Lc  sd_diskio.o [1]
+SD_CheckStatusWithTimeout
+                         0x800'5519   0x24  Code  Lc  sd_diskio.o [1]
+SD_DMAError              0x800'3e1d   0x5a  Code  Lc  stm32f4xx_hal_sd.o [1]
+SD_DMAReceiveCplt        0x800'3dd5   0x42  Code  Lc  stm32f4xx_hal_sd.o [1]
+SD_DMARxAbort            0x800'3ee1   0x26  Code  Lc  stm32f4xx_hal_sd.o [1]
+SD_DMATransmitCplt       0x800'3dc5    0xe  Code  Lc  stm32f4xx_hal_sd.o [1]
+SD_DMATxAbort            0x800'3ea5   0x24  Code  Lc  stm32f4xx_hal_sd.o [1]
+SD_Driver                0x800'96b8   0x14  Data  Gb  sd_diskio.o [1]
+SD_FindSCR               0x800'3f0f   0xe4  Code  Lc  stm32f4xx_hal_sd.o [1]
+SD_initialize            0x800'5557   0x18  Code  Gb  sd_diskio.o [1]
+SD_ioctl                 0x800'5709   0x4a  Code  Gb  sd_diskio.o [1]
+SD_read                  0x800'5571   0xc4  Code  Gb  sd_diskio.o [1]
+SD_status                0x800'556f    0x2  Code  Gb  sd_diskio.o [1]
+SD_write                 0x800'5635   0xc6  Code  Gb  sd_diskio.o [1]
+SPI_Bat_Msg_ID          0x2000'1096    0x2  Data  Gb  main.o [1]
+SPI_EndRxTxTransaction   0x800'5c0f   0x50  Code  Lc  stm32f4xx_hal_spi.o [1]
+SPI_KIT_dataBuffer      0x2000'1098   0x10  Data  Gb  main.o [1]
+SPI_Kit_Msg_ID          0x2000'10a8    0x4  Data  Gb  main.o [1]
+SPI_Tx_Flag             0x2000'1057    0x1  Data  Gb  re_app_timers.o [1]
+SPI_Tx_PhyID_Flag       0x2000'1095    0x1  Data  Gb  main.o [1]
+SPI_WaitFlagStateUntilTimeout
+                         0x800'5b79   0x8a  Code  Lc  stm32f4xx_hal_spi.o [1]
+SVC_Handler              0x800'8f37    0x2  Code  Gb  stm32f4xx_it.o [1]
+Stat                    0x2000'0191    0x1  Data  Lc  sd_diskio.o [1]
+Store_Char               0x800'8fc9   0x24  Code  Gb  re_app_UART_Ring.o [1]
+SysTick_Handler          0x800'8f3d    0xe  Code  Gb  stm32f4xx_it.o [1]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit               0x800'95a5   0x14  Code  Gb  system_stm32f4xx.o [1]
+TIM3_IRQHandler          0x800'8f83    0x6  Code  Gb  stm32f4xx_it.o [1]
+TIM_Base_SetConfig       0x800'62f9   0x96  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_ETR_SetConfig        0x800'6413   0x14  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_ITRx_SetConfig       0x800'6403   0x10  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                         0x800'63c1   0x1e  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                         0x800'63df   0x24  Code  Lc  stm32f4xx_hal_tim.o [1]
+TxHeader                0x2000'10d0   0x18  Data  Gb  re_can_init.o [1]
+UART_DMAAbortOnError     0x800'6b0d    0xc  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_EndRxTransfer       0x800'6aef   0x1c  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_ISR                 0x800'8fed   0x5c  Code  Gb  re_app_UART_Ring.o [1]
+UART_Receive_IT          0x800'6b19   0x92  Code  Lc  stm32f4xx_hal_uart.o [1]
+UART_SetConfig           0x800'6bab   0xca  Code  Lc  stm32f4xx_hal_uart.o [1]
+USART2_IRQHandler        0x800'8f59    0x6  Code  Gb  stm32f4xx_it.o [1]
+USART3_IRQHandler        0x800'8f5f    0x6  Code  Gb  stm32f4xx_it.o [1]
+UsageFault_Handler       0x800'8f35    0x2  Code  Gb  stm32f4xx_it.o [1]
+WriteStatus             0x2000'05f4    0x4  Data  Lc  sd_diskio.o [1]
+_Close_all               0x800'9569   0x3c  Code  Gb  xcloseall.o [2]
+_Encoding_8859_1_Mbrlen
+                         0x800'2839    0x2  Code  Gb  xencoding_8859_1.o [2]
+_Encoding_8859_1_Wctomb
+                         0x800'2827   0x12  Code  Gb  xencoding_8859_1.o [2]
+_Files                  0x2000'0168   0x20  Data  Gb  xfiles.o [2]
+_Fofree                  0x800'8e8d   0x96  Code  Gb  xfofind.o [2]
+_Fspos                   0x800'89dd   0xd8  Code  Gb  xfspos.o [2]
+_Fwprep                  0x800'8db5   0xb4  Code  Gb  xfwprep.o [2]
+_LitobFull               0x800'257b  0x10a  Code  Lc  xprintffull.o [2]
+_LocaleC_isspace         0x800'2775   0x14  Code  Gb  xlocale_c.o [2]
+_LocaleC_isupper         0x800'2769    0x2  Code  Gb  xlocale_c.o [2]
+_LocaleC_tolower         0x800'2789    0xc  Code  Gb  xlocale_c.o [2]
+_Locale_lconv           0x2000'0010   0x38  Data  Lc  xlocale_c.o [2]
+_Nnl                     0x800'8b61    0xc  Code  Gb  xfgpos.o [2]
+_PrintfFull              0x800'1669  0xcc4  Code  Gb  xprintffull.o [2]
+_Prout                   0x800'9697   0x16  Code  Gb  xprout.o [2]
+_PutcharsFull            0x800'26ed   0x2e  Code  Lc  xprintffull.o [2]
+_PutstrFull              0x800'24bb   0xc0  Code  Lc  xprintffull.o [2]
+_PuttxtFull              0x800'23af  0x10c  Code  Lc  xprintffull.o [2]
+_SProut                  0x800'29a7    0xa  Code  Gb  xsprout.o [2]
+__NVIC_SetPriority       0x800'4b19   0x1a  Code  Lc  stm32f4xx_hal_cortex.o [1]
+__aeabi_cdcmple          0x800'2979         Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x800'29b1         Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz             0x800'2b1d         Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x800'2ea9         Code  Gb  DblToU32.o [3]
+__aeabi_dadd             0x800'31a5         Code  Gb  DblAdd.o [3]
+__aeabi_ddiv             0x800'2c61         Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'2eed         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'2b7d         Code  Gb  DblSub.o [3]
+__aeabi_f2d              0x800'8831         Code  Gb  FltToDbl.o [3]
+__aeabi_i2d              0x800'2b59         Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0            0x800'3321         Code  Gb  I64DivZer.o [4]
+__aeabi_memclr4          0x800'5835         Code  Gb  ABImemclr4.o [4]
+__aeabi_memset           0x800'576d         Code  Gb  ABImemset.o [4]
+__aeabi_memset4          0x800'7715         Code  Gb  ABImemset48.o [4]
+__aeabi_memset8          0x800'7715         Code  Gb  ABImemset48.o [4]
+__aeabi_ui2d             0x800'2ed1         Code  Gb  U32ToDbl.o [3]
+__basic_free             0x800'8923   0x16  Code  Gb  heap0.o [2]
+__basic_free_intern      0x800'8939   0x74  Code  Lc  heap0.o [2]
+__basic_malloc           0x800'8879   0x18  Code  Gb  heap0.o [2]
+__basic_malloc_intern    0x800'8891   0x92  Code  Lc  heap0.o [2]
+__cexit_closeall         0x800'968b         Code  Gb  cexit.o [4]
+__close                  0x800'91d7   0x18  Code  Gb  close.o [5]
+__cmain                  0x800'9661         Code  Gb  cmain.o [4]
+__cstart_closeall        0x800'97f8         Data  Gb  cstart_closeall.o [4]
+__data_GetMemChunk       0x800'89b1   0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'111c    0x4  Data  Lc  xgetmemchunk.o [2]
+__dwrite                 0x800'8c95   0x1e  Code  Gb  dwrite.o [5]
+__exit                   0x800'3325   0x14  Code  Gb  exit.o [5]
+__iar_Fail_s             0x800'2845   0x1c  Code  Gb  xfail_s.o [2]
+__iar_Mbcurmax           0x800'308f    0xa  Code  Gb  xmbcurmax.o [2]
+__iar_Memchr             0x800'2899         Code  Gb  memchr.o [4]
+__iar_Memset             0x800'576d         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word       0x800'771d         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x800'771d         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word        0x800'5775         Code  Gb  ABImemset.o [4]
+__iar_Stderr            0x2000'0120   0x48  Data  Gb  xfiles.o [2]
+__iar_Stdin             0x2000'0090   0x48  Data  Gb  xfiles.o [2]
+__iar_Stdout            0x2000'00d8   0x48  Data  Gb  xfiles.o [2]
+__iar_Stoulx             0x800'589d  0x13a  Code  Gb  iar_Stoulx.o [2]
+__iar_Strchr             0x800'2811         Code  Gb  strchr.o [4]
+__iar_close_ttio         0x800'3339   0x2c  Code  Gb  iarttio.o [5]
+__iar_dadd               0x800'2b8d         Code  Gb  DblSub.o [3]
+__iar_data_init3         0x800'95d1   0x28  Code  Gb  data_init.o [4]
+__iar_dsub               0x800'31b5         Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'31c7         Code  Gb  DblAdd.o [3]
+__iar_frexp              0x800'2915         Code  Gb  frexp.o [3]
+__iar_frexpl             0x800'2915         Code  Gb  frexp.o [3]
+__iar_get_ttio           0x800'3365   0x4c  Code  Gb  iarttio.o [5]
+__iar_globLocale        0x2000'0048   0x48  Data  Lc  xlocale_c.o [2]
+__iar_global_Locale      0x800'2795    0x4  Code  Gb  xlocale_c.o [2]
+__iar_init_vfp           0x800'961d         Code  Gb  fpinit_M.o [3]
+__iar_ldexp64            0x800'29e1         Code  Gb  ldexp.o [3]
+__iar_lookup_ttioh       0x800'33e3    0x4  Code  Gb  XShttio.o [2]
+__iar_lz77_init_single3
+                         0x800'92f9   0x78  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x800'96dd         Code  Gb  cstartup_M.o [4]
+__iar_scalbln64          0x800'29e1         Code  Gb  ldexp.o [3]
+__iar_scalbn64           0x800'29e1         Code  Gb  ldexp.o [3]
+__iar_sh_Discard         0x800'8bc9   0x42  Code  Gb  XShHandles.o [2]
+__iar_sh_Move            0x800'8c0b   0x46  Code  Gb  XShHandles.o [2]
+__iar_sh_Pos             0x800'8c51   0x3e  Code  Gb  XShHandles.o [2]
+__iar_sh_stdout          0x800'8cb3   0x20  Code  Gb  iarwstd.o [5]
+__iar_sh_write           0x800'8cd3   0x22  Code  Gb  iarwrite.o [5]
+__iar_small_Memcpy       0x800'28f5         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy       0x800'28f1         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy4      0x800'28f1         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy8      0x800'28f1         Code  Gb  ABImemcpy_small.o [4]
+__iar_small_strlen       0x800'2885         Code  Gb  strlen_small.o [4]
+__iar_small_uldivmod     0x800'3099         Code  Gb  I64DivMod_small.o [4]
+__iar_softfp___iar_frexp64
+                         0x800'2909         Code  Gb  frexp.o [3]
+__iar_softfp_frexp       0x800'2909         Code  Gb  frexp.o [3]
+__iar_softfp_frexpl      0x800'2909         Code  Gb  frexp.o [3]
+__iar_ttio_guard_lock    0x800'33b5   0x1e  Code  Gb  XShttio.o [2]
+__iar_ttio_guard_unlock
+                         0x800'33d3   0x10  Code  Gb  XShttio.o [2]
+__iar_ttio_handles      0x2000'0188    0x8  Data  Lc  XShttio.o [2]
+__iar_zero_init3         0x800'272f   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'967f    0x4  Code  Gb  low_level_init.o [2]
+__lseek                  0x800'8b6d   0x4a  Code  Gb  lseek.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f407xx.o [1]
+__write                  0x800'8bb7   0x10  Code  Gb  write.o [5]
+_call_main               0x800'966d         Code  Gb  cmain.o [4]
+_exit                    0x800'9689         Code  Gb  cexit.o [4]
+_gLocale_mblen           0x800'27fd    0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_mblenInt        0x800'27c1   0x2c  Code  Gb  xlocale_c.o [2]
+_gLocale_wctomb          0x800'2801    0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_wctombInt       0x800'27f9    0x4  Code  Gb  xlocale_c.o [2]
+_main                    0x800'967b         Code  Gb  cmain.o [4]
+_rx_buffer              0x2000'07fc    0x4  Data  Gb  re_app_UART_Ring.o [1]
+_tx_buffer              0x2000'0800    0x4  Data  Gb  re_app_UART_Ring.o [1]
+abort                    0x800'319f    0x6  Code  Gb  abort.o [2]
+animate                 0x2000'1123    0x1  Data  Gb  re_app_key_position.o [1]
+atoi                     0x800'59dd    0x2  Code  Gb  iar_Stoulx.o [2]
+bat1                    0x2000'10e9    0x1  Data  Gb  re_can_int_callback.o [1]
+bat2                    0x2000'10ea    0x1  Data  Gb  re_can_int_callback.o [1]
+bat3                    0x2000'10eb    0x1  Data  Gb  re_can_int_callback.o [1]
+bat4                    0x2000'10ec    0x1  Data  Gb  re_can_int_callback.o [1]
+bat_err_cnt             0x2000'110c    0x1  Data  Gb  re_app_battery_info.o [1]
+bat_error               0x2000'110e    0x2  Data  Gb  re_app_battery_info.o [1]
+bat_num                 0x2000'10e8    0x1  Data  Gb  re_can_int_callback.o [1]
+buff_len                0x2000'0190    0x1  Data  Gb  main.o [1]
+buffer                  0x2000'0b2c   0x98  Data  Gb  main.o [1]
+bytesread               0x2000'0bd8    0x4  Data  Gb  main.o [1]
+byteswritten            0x2000'0bdc    0x4  Data  Gb  main.o [1]
+check_fs                 0x800'0abf   0x6c  Code  Lc  ff.o [1]
+chk_lock                 0x800'01d7   0x5a  Code  Lc  ff.o [1]
+clear_lock               0x800'02db   0x1c  Code  Lc  ff.o [1]
+clearbuf                 0x800'4e19   0x14  Code  Gb  main.o [1]
+clk_pin                 0x2000'0e04   0x14  Data  Gb  re_lcd_gpio_init.o [1]
+clmt_clust               0x800'06af   0x28  Code  Lc  ff.o [1]
+clust2sect               0x800'03eb   0x1a  Code  Lc  ff.o [1]
+create_chain             0x800'0607   0xa2  Code  Lc  ff.o [1]
+cs1_pin                 0x2000'0ddc   0x14  Data  Gb  re_lcd_gpio_init.o [1]
+cs2_pin                 0x2000'0df0   0x14  Data  Gb  re_lcd_gpio_init.o [1]
+data_pin                0x2000'0e18   0x14  Data  Gb  re_lcd_gpio_init.o [1]
+dec_lock                 0x800'02a5   0x36  Code  Lc  ff.o [1]
+digits                   0x800'9540   0x28  Data  Lc  iar_Stoulx.o [2]
+dir_next                 0x800'075f   0xe0  Code  Lc  ff.o [1]
+dir_register             0x800'0891   0x72  Code  Lc  ff.o [1]
+dir_sdi                  0x800'06d7   0x88  Code  Lc  ff.o [1]
+disk                    0x2000'10ac    0xc  Data  Gb  ff_gen_drv.o [1]
+disk_initialize          0x800'159f   0x26  Code  Gb  diskio.o [1]
+disk_ioctl               0x800'15ed   0x1a  Code  Gb  diskio.o [1]
+disk_read                0x800'15c5    0xc  Code  Gb  diskio.o [1]
+disk_status              0x800'158d   0x12  Code  Gb  diskio.o [1]
+disk_write               0x800'15d1    0xc  Code  Gb  diskio.o [1]
+ebuf                    0x2000'0e2c   0x50  Data  Lc  xfiles.o [2]
+exit                     0x800'9683    0x4  Code  Gb  exit.o [2]
+f_close                  0x800'137f   0x28  Code  Gb  ff.o [1]
+f_getfree                0x800'13c3   0xd6  Code  Gb  ff.o [1]
+f_gets                   0x800'14a3   0x46  Code  Gb  ff.o [1]
+f_mount                  0x800'0daf   0x58  Code  Gb  ff.o [1]
+f_open                   0x800'0e11  0x1f6  Code  Gb  ff.o [1]
+f_puts                   0x800'1565   0x1e  Code  Gb  ff.o [1]
+f_read                   0x800'101d  0x146  Code  Gb  ff.o [1]
+f_sync                   0x800'12f3   0x7c  Code  Gb  ff.o [1]
+f_write                  0x800'1163  0x17c  Code  Gb  ff.o [1]
+fclose                   0x800'9159   0x7e  Code  Gb  fclose.o [2]
+fflush                   0x800'8b29   0x34  Code  Gb  fflush.o [2]
+fflushOne                0x800'8ab5   0x74  Code  Lc  fflush.o [2]
+find_volume              0x800'0b31  0x248  Code  Lc  ff.o [1]
+follow_path              0x800'090b  0x160  Code  Lc  ff.o [1]
+fputc                    0x800'94c5   0x54  Code  Gb  fputc.o [2]
+fre_clust               0x2000'0bcc    0x4  Data  Gb  main.o [1]
+free                     0x800'8f29    0x4  Code  Gb  heaptramp0.o [2]
+freeSpace               0x2000'0bd4    0x4  Data  Gb  main.o [1]
+fres                    0x2000'0bc4    0x1  Data  Gb  main.o [1]
+fseek                    0x800'8e69   0x24  Code  Gb  fseek.o [2]
+gear_ratio              0x2000'1114    0x4  Data  Gb  re_app_gear_status.o [1]
+get_fat                  0x800'0405   0xa4  Code  Lc  ff.o [1]
+get_fattime              0x800'1625    0x4  Code  Gb  fatfs.o [1]
+get_ldnumber             0x800'0a7d   0x42  Code  Lc  ff.o [1]
+hcan1_t                 0x2000'1008   0x28  Data  Gb  re_can_init.o [1]
+hdma_sdio_rx            0x2000'0cc4   0x60  Data  Gb  main.o [1]
+hdma_sdio_tx            0x2000'0d24   0x60  Data  Gb  main.o [1]
+hsd                     0x2000'09a8   0x84  Data  Gb  main.o [1]
+hspi1_t                 0x2000'0d84   0x58  Data  Gb  re_spi_init.o [1]
+htim3_t                 0x2000'0f10   0x40  Data  Gb  re_timer_init.o [1]
+huart2_t                0x2000'0f50   0x40  Data  Gb  re_uart_init.o [1]
+huart3_t                0x2000'0f90   0x40  Data  Gb  re_uart_init.o [1]
+inc_lock                 0x800'0231   0x74  Code  Lc  ff.o [1]
+isspace                  0x800'7779   0x14  Code  Gb  isspace.o [2]
+key_status              0x2000'1122    0x1  Data  Gb  re_app_key_position.o [1]
+kmph                    0x2000'10c8    0x4  Data  Gb  re_app_speed_info.o [1]
+latch_status            0x2000'1120    0x1  Data  Gb  re_app_dock_latch.o [1]
+latch_status_flag       0x2000'1121    0x1  Data  Gb  re_app_dock_latch.o [1]
+ld_clust                 0x800'0845   0x26  Code  Lc  ff.o [1]
+ld_dword                 0x800'018f   0x10  Code  Lc  ff.o [1]
+ld_word                  0x800'0189    0x6  Code  Lc  ff.o [1]
+ldexp                    0x800'29e1         Code  Gb  ldexp.o [3]
+ldexpl                   0x800'29e1         Code  Gb  ldexp.o [3]
+localeconv               0x800'2805    0x4  Code  Gb  xlocale_c.o [2]
+main                     0x800'5141  0x23e  Code  Gb  main.o [1]
+mem_cpy                  0x800'01bd   0x10  Code  Lc  ff.o [1]
+mem_set                  0x800'01cd    0xa  Code  Lc  ff.o [1]
+memchr                   0x800'2899         Code  Gb  memchr.o [4]
+memset                   0x800'4b05   0x14  Code  Gb  memset.o [4]
+move_window              0x800'033d   0x2e  Code  Lc  ff.o [1]
+n                       0x2000'0ed0   0x1c  Data  Gb  re_app_dash_lcd.o [1]
+ndigs                    0x800'9518   0x28  Data  Lc  iar_Stoulx.o [2]
+nodata_t                 0x800'8cf4   0xc0  Data  Lc  re_app_battery_info.o [1]
+obuf                    0x2000'0e7c   0x50  Data  Lc  xfiles.o [2]
+odo                     0x2000'10c0    0x8  Data  Gb  re_app_speed_info.o [1]
+pclk1                   0x2000'0a2c    0x4  Data  Gb  main.o [1]
+pclk2                   0x2000'0a30    0x4  Data  Gb  main.o [1]
+pfs                     0x2000'0bc8    0x4  Data  Gb  main.o [1]
+printf                   0x800'7751   0x28  Code  Gb  printf.o [2]
+put_fat                  0x800'04a9   0xe8  Code  Lc  ff.o [1]
+putc_bfd                 0x800'14e9   0x46  Code  Lc  ff.o [1]
+putc_flush               0x800'152f   0x2c  Code  Lc  ff.o [1]
+putc_init                0x800'155b    0xa  Code  Lc  ff.o [1]
+putchar                  0x800'96ad    0xc  Code  Gb  putchar.o [2]
+range                   0x2000'1054    0x1  Data  Gb  re_app_dash_lcd.o [1]
+remove                   0x800'91ef   0x14  Code  Gb  remove.o [5]
+remove_chain             0x800'059d   0x6a  Code  Lc  ff.o [1]
+retSD                   0x2000'10f4    0x1  Data  Gb  fatfs.o [1]
+rtext                   0x2000'0be0   0x64  Data  Gb  main.o [1]
+rx_buffer               0x2000'0804   0xd0  Data  Gb  re_app_UART_Ring.o [1]
+sFileInfo               0x2000'0c44   0x80  Data  Lc  XShHandles.o [2]
+save_odo                0x2000'10b8    0x1  Data  Gb  re_app_speed_info.o [1]
+scalbln                  0x800'29e1         Code  Gb  ldexp.o [3]
+scalblnl                 0x800'29e1         Code  Gb  ldexp.o [3]
+scalbn                   0x800'29e1         Code  Gb  ldexp.o [3]
+scalbnl                  0x800'29e1         Code  Gb  ldexp.o [3]
+scale                    0x800'2685   0x46  Code  Lc  xprintffull.o [2]
+scratch                 0x2000'05fc  0x200  Data  Lc  sd_diskio.o [1]
+sd_buf                  0x2000'0a38   0x34  Data  Gb  main.o [1]
+sd_mount                 0x800'4e31   0x94  Code  Gb  main.o [1]
+sec_hand                0x2000'1118    0x4  Data  Lc  xfail_s.o [2]
+sprintf                  0x800'585d   0x40  Code  Gb  sprintf.o [2]
+st_clust                 0x800'086b   0x26  Code  Lc  ff.o [1]
+st_dword                 0x800'01ad   0x10  Code  Lc  ff.o [1]
+st_word                  0x800'01a5    0x8  Code  Lc  ff.o [1]
+strchr                   0x800'2811         Code  Gb  strchr.o [4]
+sync_fs                  0x800'036b   0x80  Code  Lc  ff.o [1]
+sync_window              0x800'02f7   0x38  Code  Lc  ff.o [1]
+t_10s                   0x2000'09a4    0x1  Data  Gb  main.o [1]
+timer_counter           0x2000'1055    0x1  Data  Gb  re_app_timers.o [1]
+timer_spi_counter       0x2000'1056    0x1  Data  Gb  re_app_timers.o [1]
+tolower                  0x800'778d   0x14  Code  Gb  tolower.o [2]
+totalSpace              0x2000'0bd0    0x4  Data  Gb  main.o [1]
+ttio_guard              0x2000'1124    0x1  Data  Lc  XShttio.o [2]
+tx_buffer               0x2000'08d4   0xd0  Data  Gb  re_app_UART_Ring.o [1]
+uart_rcvd_byte          0x2000'0a34    0x1  Data  Gb  main.o [1]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f4xx_hal.o [1]
+validate                 0x800'0d79   0x36  Code  Lc  ff.o [1]
+z                       0x2000'0fd0   0x38  Data  Gb  re_app_dash_lcd.o [1]
+
+
+[1] = C:\Users\SURYA MERUGU\Downloads\conversion_kit -mar17-7pm (1)\conversion_kit -mar17-7pm\Toolchain\EWARM\conversion_kit\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  37'679 bytes of readonly  code memory
+   1'377 bytes of readonly  data memory
+  14'627 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
